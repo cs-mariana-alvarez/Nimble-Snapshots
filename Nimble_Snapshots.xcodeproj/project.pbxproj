@@ -13,6 +13,7 @@
 		095B478F1D47794300880922 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095B478C1D47794300880922 /* HaveValidSnapshot.swift */; };
 		095B47901D47794300880922 /* CurrentTestCaseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095B478D1D47794300880922 /* CurrentTestCaseTracker.swift */; };
 		095B47911D47794300880922 /* PrettySyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095B478E1D47794300880922 /* PrettySyntax.swift */; };
+		C41910F21F158D9A005CB90B /* ManyImagesSnapshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41910F11F158D9A005CB90B /* ManyImagesSnapshots.swift */; };
 		D47CB5F91EC9973C00D5588D /* XCTestObservationCenter+CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = D47CB5F71EC9973C00D5588D /* XCTestObservationCenter+CurrentTestCaseTracker.h */; };
 		D47CB5FA1EC9973C00D5588D /* XCTestObservationCenter+CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D47CB5F81EC9973C00D5588D /* XCTestObservationCenter+CurrentTestCaseTracker.m */; };
 		D4F7D47E1ED764CD00B4D2FE /* DynamicSizeSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7D4781ED764CD00B4D2FE /* DynamicSizeSnapshot.swift */; };
@@ -31,6 +32,7 @@
 		095B478C1D47794300880922 /* HaveValidSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaveValidSnapshot.swift; sourceTree = SOURCE_ROOT; };
 		095B478D1D47794300880922 /* CurrentTestCaseTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTestCaseTracker.swift; sourceTree = SOURCE_ROOT; };
 		095B478E1D47794300880922 /* PrettySyntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettySyntax.swift; sourceTree = SOURCE_ROOT; };
+		C41910F11F158D9A005CB90B /* ManyImagesSnapshots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManyImagesSnapshots.swift; sourceTree = "<group>"; };
 		D47CB5F71EC9973C00D5588D /* XCTestObservationCenter+CurrentTestCaseTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XCTestObservationCenter+CurrentTestCaseTracker.h"; path = "../XCTestObservationCenter+CurrentTestCaseTracker.h"; sourceTree = "<group>"; };
 		D47CB5F81EC9973C00D5588D /* XCTestObservationCenter+CurrentTestCaseTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+CurrentTestCaseTracker.m"; path = "../XCTestObservationCenter+CurrentTestCaseTracker.m"; sourceTree = "<group>"; };
 		D4F7D4781ED764CD00B4D2FE /* DynamicSizeSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicSizeSnapshot.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		095B476F1D4773F000880922 /* Nimble_Snapshots */ = {
 			isa = PBXGroup;
 			children = (
+				C41910F11F158D9A005CB90B /* ManyImagesSnapshots.swift */,
 				D4F7D4771ED764CD00B4D2FE /* DynamicSize */,
 				D4F7D4791ED764CD00B4D2FE /* DynamicType */,
 				095B478C1D47794300880922 /* HaveValidSnapshot.swift */,
@@ -189,6 +192,7 @@
 			files = (
 				095B47911D47794300880922 /* PrettySyntax.swift in Sources */,
 				D4F7D4811ED764CD00B4D2FE /* NBSMockedApplication.m in Sources */,
+				C41910F21F158D9A005CB90B /* ManyImagesSnapshots.swift in Sources */,
 				D47CB5FA1EC9973C00D5588D /* XCTestObservationCenter+CurrentTestCaseTracker.m in Sources */,
 				D4F7D47F1ED764CD00B4D2FE /* HaveValidDynamicTypeSnapshot.swift in Sources */,
 				095B478F1D47794300880922 /* HaveValidSnapshot.swift in Sources */,
