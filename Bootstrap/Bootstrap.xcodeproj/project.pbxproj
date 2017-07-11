@@ -17,6 +17,7 @@
 		60F242F71CB3B64300387AA1 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 60F242F31CB3B64300387AA1 /* CHANGELOG.md */; };
 		60F242F81CB3B64300387AA1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 60F242F41CB3B64300387AA1 /* LICENSE */; };
 		60F242F91CB3B64300387AA1 /* Nimble-Snapshots.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 60F242F51CB3B64300387AA1 /* Nimble-Snapshots.podspec */; };
+		C41910F01F156BFF005CB90B /* ManyImagesSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41910EF1F156BFF005CB90B /* ManyImagesSnapshotTests.swift */; };
 		C63B5DDA26F71A257C30F713 /* Pods_BootstrapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94D9F88FB2A2621AAAD2E60 /* Pods_BootstrapTests.framework */; };
 		D44D1EFF1D9D87A9006DCD0C /* DynamicTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D1EFE1D9D87A9006DCD0C /* DynamicTypeTests.swift */; };
 		D44D1F011D9D87CC006DCD0C /* DynamicTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D1F001D9D87CC006DCD0C /* DynamicTypeView.swift */; };
@@ -53,6 +54,7 @@
 		60F242F51CB3B64300387AA1 /* Nimble-Snapshots.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Nimble-Snapshots.podspec"; path = "../Nimble-Snapshots.podspec"; sourceTree = "<group>"; };
 		60F242F61CB3B64300387AA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A57DFE7C77534A99563B1C8B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41910EF1F156BFF005CB90B /* ManyImagesSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManyImagesSnapshotTests.swift; path = ManyImagesSnapshotTests/ManyImagesSnapshotTests.swift; sourceTree = "<group>"; };
 		D44D1EFE1D9D87A9006DCD0C /* DynamicTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTypeTests.swift; sourceTree = "<group>"; };
 		D44D1F001D9D87CC006DCD0C /* DynamicTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTypeView.swift; sourceTree = "<group>"; };
 		D4E1BD841E7164DD00F0A4B5 /* WithoutQuickTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithoutQuickTests.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		5EDEF1DA1A1E5780004D7BAB /* BootstrapTests */ = {
 			isa = PBXGroup;
 			children = (
+				C41910EE1F156BCC005CB90B /* ManyImagesSnapshot */,
 				11BFADFB1BE4196100F74D8E /* ACustomFolder */,
 				5EDEF1DD1A1E5780004D7BAB /* BootstrapTests.swift */,
 				D44D1EFE1D9D87A9006DCD0C /* DynamicTypeTests.swift */,
@@ -171,6 +174,14 @@
 				5DBE2A15129FF879DA1B1D09 /* Pods-BootstrapTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C41910EE1F156BCC005CB90B /* ManyImagesSnapshot */ = {
+			isa = PBXGroup;
+			children = (
+				C41910EF1F156BFF005CB90B /* ManyImagesSnapshotTests.swift */,
+			);
+			name = ManyImagesSnapshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +369,7 @@
 				D44D1EFF1D9D87A9006DCD0C /* DynamicTypeTests.swift in Sources */,
 				D4E1BD851E7164DD00F0A4B5 /* WithoutQuickTests.swift in Sources */,
 				11BFADFD1BE4196100F74D8E /* BootstrapCustomFolderTests.swift in Sources */,
+				C41910F01F156BFF005CB90B /* ManyImagesSnapshotTests.swift in Sources */,
 				5EDEF1DE1A1E5780004D7BAB /* BootstrapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
